@@ -4,6 +4,7 @@ import arrow from '../assets/arrow.svg'
 export default function Hero() {
   return (
     <section
+      id="why-join"
       className="relative bg-cover min-h-screen bg-center"
       style={{ backgroundImage: `url(${bg})` }}
       aria-label="Hero"

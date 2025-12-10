@@ -38,8 +38,8 @@ const features = [
 
 export default function Receives() {
   return (
-    <section className="bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-20">
+    <section id="what-you-receive" className="bg-white">
+      <div className="max-w-6xl mx-auto py-20">
         <div className="text-center">
           <h3 className="text-2xl md:text-3xl font-semibold text-gray-900">What your institution Receives</h3>
           <p className="mt-2 text-xl text-gray-500">The Digital Science Infrastructure You Get to Lead the Next Era.</p>
