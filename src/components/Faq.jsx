@@ -28,7 +28,7 @@ The tour operates under an institutional scholarship-backed scientific developme
             Can't able to find answers you're looking for?
             <br />
             Reach out to our{' '}
-            <a href="#" className="text-sky-600 underline">
+            <a href="https://forms.gle/6ZJwvAsb4f3qUh3Q9" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">
               customer support
             </a>{' '}
             team.

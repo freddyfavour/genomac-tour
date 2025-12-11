@@ -18,10 +18,15 @@ export default function Navbar() {
           </ul>
 
           <div className="flex items-center gap-4">
-            <button className="hidden md:inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+            <a
+              href="https://forms.gle/6ZJwvAsb4f3qUh3Q9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold"
+            >
               Contact Us
               <img src={Arrow} alt="arrow" className="w-4 h-4" />
-            </button>
+            </a>
 
             <button className="md:hidden inline-flex items-center justify-center w-10 h-10 bg-white/60 rounded-full">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">

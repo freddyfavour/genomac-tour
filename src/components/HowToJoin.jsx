@@ -75,7 +75,12 @@ export default function HowToJoin() {
               ))}
 
               <div className="mt-6">
-                <a href="#" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#B241B7] text-white text-sm font-medium shadow">
+                <a
+                  href="https://forms.gle/6ZJwvAsb4f3qUh3Q9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#B241B7] text-white text-sm font-medium shadow"
+                >
                   Contact Us
                 </a>
               </div>

@@ -25,18 +25,22 @@ export default function Hero() {
           bioinformatics, computational biology, and AI-driven infrastructure.
         </p>
 
-        <div className="mt-8 flex justify-center gap-4">
+        <div className="mt-8 flex max-md:flex-col justify-center gap-4">
           <a
-            href="#"
-            className="inline-flex items-center gap-3 rounded-full px-6 py-1 bg-[#B241B7] text-white font-semibold shadow-lg hover:scale-[1.02] transition-transform"
+            href="https://forms.gle/6ZJwvAsb4f3qUh3Q9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center max-md:justify-center gap-3 rounded-full px-6 py-1 bg-[#B241B7] text-white font-semibold shadow-lg hover:scale-[1.02] transition-transform"
           >
             <span>Become a Partner Institute</span>
             <img src={arrow} alt="arrow" className="w-10 h-10" />
           </a>
 
           <a
-            href="#"
-            className="inline-flex items-center gap-3 rounded-full px-6 py-1 border border-white/30 text-white bg-black/20 font-medium hover:bg-white/5 transition"
+            href="https://forms.gle/6ZJwvAsb4f3qUh3Q9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center max-md:justify-center gap-3 rounded-full px-6 py-1 border border-white/30 text-white bg-black/20 font-medium hover:bg-white/5 transition"
           >
             <span>Request Tour Enquiry</span>
             <img src={arrow} alt="arrow" className="w-10 h-10" />
