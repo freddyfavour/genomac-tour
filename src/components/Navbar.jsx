@@ -22,7 +22,7 @@ export default function Navbar() {
               href="https://www.genomacholdings.com/contact"
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden md:inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold"
+              className="hidden md:inline-flex items-center gap-2 bg-[#B241B7] text-white px-4 py-2 rounded-full text-sm font-semibold"
             >
               Contact Us
               <img src={Arrow} alt="arrow" className="w-4 h-4" />
