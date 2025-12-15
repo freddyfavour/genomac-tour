@@ -12,14 +12,14 @@ export default function Navbar() {
 
           <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
             <li><a href="#why-join" className="hover:text-gray-900">Why Join</a></li>
-            <li><a href="#who-should-join" className="hover:text-gray-900">Who should Join</a></li>
             <li><a href="#what-you-receive" className="hover:text-gray-900">What you Recieve</a></li>
             <li><a href="#process" className="hover:text-gray-900">Process</a></li>
+            <li><a href="#who-should-join" className="hover:text-gray-900">Who should Join</a></li>
           </ul>
 
           <div className="flex items-center gap-4">
             <a
-              href="https://forms.gle/6ZJwvAsb4f3qUh3Q9"
+              href="https://www.genomacholdings.com/contact"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold"

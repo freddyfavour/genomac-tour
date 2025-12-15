@@ -10,11 +10,20 @@ The tour operates under an institutional scholarship-backed scientific developme
     },
     {
       q: "What exactly is 'Institutional Scholarship-Backed Scientific Development Support'?",
-      a: 'This is some subtext which appears after expanding the accordian.',
+      a: 'This is a sponsored partnership model where Genomac provides partner institutions with ongoing access to advanced genomics and bioinformatics resources, training programs, cloud tools, virtual labs, and research support at no cost to the institution itself. It enables students, lecturers, and researchers to enroll in professional programs, access digital infrastructure (such as Omicsboard dashboards, bioinformatics tools, and virtual labs), receive mentorship for research-to-publication workflows, and connect to international scientific networks. The support is "scholarship-backed" meaning high-value opportunities are subsidized for the institution, with participants contributing only a minimal symbolic fee where applicable to demonstrate commitment.',
     },
-    { q: 'What does my institution gain from participating?', a: 'This is some subtext which appears after expanding the accordian.' },
-    { q: 'Who should attend the sessions during the tour visit?', a: 'This is some subtext which appears after expanding the accordian.' },
-    { q: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?', a: 'This is some subtext which appears after expanding the accordian.' },
+    {
+      q: 'What does my institution gain from participating?',
+      a: 'Your institution gains comprehensive modernization of its science education and research systems, including updated curricula aligned with global standards, hands-on training in AI-driven omics and bioinformatics, sustainable publication and innovation pipelines, independent management of advanced programs, cloud-based tools and virtual labs, support for translational research and startups, and long-term partnership benefits like onboarding to digital platforms, staff development, and enhanced global competitiveness—all provided through a no-cost institutional partnership.',
+    },
+    {
+      q: 'Who should attend the sessions during the tour visit?',
+      a: 'The tour includes targeted sessions for different groups: The Leadership Strategy Roundtable is for senior leadership (Vice-Chancellors, Deans, Directors, HODs, etc.). The Research & AI-powered Omics Workshop is ideal for lecturers, researchers, lab scientists, postgraduate students, and supervisors. The Campus Flagship Impact Event is open to all—undergraduates, postgraduates, staff, and final-year students—to inspire broader engagement with future careers in genomics, bioinformatics, data science, and AI-powered research. Multi-level participation ensures full institutional transformation.',
+    },
+    {
+      q: 'How can my institution express interest in hosting the Genomac Strategic Genomics and Bioinformatics Innovation Tour 2026?',
+      a: 'Your institution can submit an Expression of Interest (EOI) through the online form on the tour registration page. This starts the straightforward partnership process, including an introductory strategy meeting, tour planning, MoU signing, and post-tour integration support with digital tools and ongoing programs.',
+    },
   ]
 
   const [openIndex, setOpenIndex] = useState(null)
@@ -28,7 +37,7 @@ The tour operates under an institutional scholarship-backed scientific developme
             Can't able to find answers you're looking for?
             <br />
             Reach out to our{' '}
-            <a href="https://forms.gle/6ZJwvAsb4f3qUh3Q9" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">
+            <a href="https://www.genomacholdings.com/contact" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">
               customer support
             </a>{' '}
             team.

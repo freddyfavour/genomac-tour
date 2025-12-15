@@ -42,7 +42,7 @@ export default function FooterCta() {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-8">
           <a
-            href="https://forms.gle/6ZJwvAsb4f3qUh3Q9"
+            href="https://www.genomacholdings.com/contact"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 bg-white text-purple-700 font-medium rounded-full px-6 py-3 shadow-sm"
@@ -53,27 +53,13 @@ export default function FooterCta() {
               <path d="M12 5l7 7-7 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </a>
-
-          <a
-            href="https://forms.gle/6ZJwvAsb4f3qUh3Q9"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold rounded-full px-6 py-3"
-          >
-            <img src={calendarIcon} alt="calendar" className="w-5 h-5" />
-            Schedule a Strategy Call
-          </a>
         </div>
 
-        <div className="flex items-center justify-center gap-4 mt-6 text-sm text-white/80">
-          <img src={downloadIcon} alt="download" className="w-4 h-4" />
-            <a href="#" className="underline">Download Information Pack</a>
-        </div>
 
         <div className="mt-10 border-t border-white/20 pt-6 text-xs text-white/70 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>Powered by Omicsboard — The Global Omics Operating System</div>
           <div className="flex items-center gap-4">
-            <a href="https://forms.gle/6ZJwvAsb4f3qUh3Q9" target="_blank" rel="noopener noreferrer" className="text-white/80">Contact Us</a>
+            <a href="https://www.genomacholdings.com/contact" target="_blank" rel="noopener noreferrer" className="text-white/80">Contact Us</a>
             <a href="#" className="text-white/80">Partnership Terms</a>
             <a href="#" className="text-white/80">Privacy Policy</a>
             <a href="#" className="text-white/80">About Genomac</a>
