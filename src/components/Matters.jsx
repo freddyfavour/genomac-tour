@@ -3,7 +3,7 @@ import matters from '../assets/matters.svg'
 export default function Matters() {
   return (
     <section className="bg-white" id="why-join">
-      <div className="max-w-6xl mx-auto py-16 md:py-20">
+      <div className="max-w-6xl mx-auto py-16 max-md:px-4 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-4xl max-md:text-3xl text-gray-900">Why this Tour Matters</h2>
